@@ -1,16 +1,27 @@
-import {Text, View} from 'react-native';
-
-import AdivinarNumero from './component/AdivinarNumero/AdivinarNumero'
 import React from 'react';
+import {
+  StyleSheet,
+  Text,
+  View,
+} from 'react-native';
+import Navigation from './navigation/Navigation'
 
-const App = () =>{
+
+
+const App = () => {
 
   return (
-    <View>
-      <AdivinarNumero />
-    </View>
-  )
-  }
+   
+      <Navigation />
+    
+  );
+};
 
+const styles = StyleSheet.create({
+  Container: {
+   flex: 1,
+  },
+ 
+});
 
 export default App;
