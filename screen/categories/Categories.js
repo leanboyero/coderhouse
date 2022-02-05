@@ -1,10 +1,9 @@
-import {
-    Button,
-    Text,
-    View,
-} from 'react-native';
-
 import React from 'react';
+import {
+    View,
+    Text,
+    Button,
+} from 'react-native';
 
 const Categories =({navigation})=>{
     return(
